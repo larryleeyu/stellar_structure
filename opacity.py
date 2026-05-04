@@ -4,7 +4,7 @@ import numpy as np
 
 
 #load in solar opacity data
-df = pd.read_csv('opacity_0.01.txt',sep='\\s+',header=None)
+df = pd.read_csv('opacity_0.02.txt',sep='\\s+',header=None)
 #create opacity grid as 19x70 numpy array, replace 9.999 with np.nan
 master_values = []
 for i in range(19):
